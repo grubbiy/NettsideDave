@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MyShop</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .product { border: 1px solid #ddd; padding: 12px; margin:8px; display:inline-block; width:200px; }
+    #cart { position: fixed; right: 20px; top: 20px; border:1px solid #ccc; padding:12px; background:#fff; }
+    button { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Products</h1>
+  <div id="products"></div>
+
+  <div id="cart">
+    <h3>Cart</h3>
+    <div id="cart-items"></div>
+    <div><strong>Total:</strong> <span id="total">0.00</span> USD</div>
+    <button id="checkoutBtn">Checkout</button>
+  </div>
+
+  <script src="/cart.js"></script>
+</body>
+</html>

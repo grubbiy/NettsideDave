@@ -1,0 +1,27 @@
+{
+  "name": "nettsidedave",
+  "version": "1.0.0",
+  "description": "My shop with Stripe + Supabase",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo \"Vercel handles builds\"",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "stripe": "^12.0.0",
+    "@supabase/supabase-js": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grubbiy/NettsideDave.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grubbiy/NettsideDave/issues"
+  },
+  "homepage": "https://github.com/grubbiy/NettsideDave#readme"
+}
